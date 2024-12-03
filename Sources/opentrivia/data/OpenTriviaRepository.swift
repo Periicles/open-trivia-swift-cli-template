@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 class OpenTriviaRepository: TriviaRepository {
     private let api: OpenTriviaAPI
 
@@ -56,5 +55,3 @@ class OpenTriviaRepository: TriviaRepository {
         task.resume()
     }
 }
-
-
